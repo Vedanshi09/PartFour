@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cormorant Garamond', serif;
+    background: #EBE7D9;
+}
+.col-md-1{
+    text-color: #2A3C47;
+
+}
+.about{
+    flex-basis: 50%;/*so that both column will occupy 50% of space*/
+    min-width: 300px;
+}
+.about h1{
+    text-align: center;
+}
+.services{
+    flex-basis: 50%;/*so that both column will occupy 50% of space*/
+    min-width: 300px;
+}
+.services h1{
+    text-align: center;
+    margin-bottom: 0.8rem;
+    color: #2A3C47;
+}
+.card-image{
+    float:left;
+    text-align: center;
+    width:33.33%;
+    length: 25%;
+}
+
+.list-group li {
+    list-style: none
+}
